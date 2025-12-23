@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,47 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+# Node.js và npm
+node_modules/
+
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+
+
+*.log
+*.log.*
+.cache/
+dist/
+build/
+
+# Playwright-specific
+playwright-report/
+test-results/
+
+playwright/.cache/
+
+# File IDE/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Hệ điều hành
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# File cục bộ hoặc nhạy cảm
+*.local
+secrets.json
+config.json  # Nếu chứa thông tin nhạy cảm
+
+# Ignore JSON files in specific directories
+reports/*.json
+
+*.txt
+/node_modules/
+/reports/
+>>>>>>> 8495a29 (first commit)
