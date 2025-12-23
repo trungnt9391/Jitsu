@@ -1,0 +1,58 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "weather-feature;tc01_check-weather-information",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "TC01_Check Weather Information",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1716401542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to the weather search page",
+            "match": {
+              "location": "step_definitions/weatherSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4884515500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 969152541
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC01",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "weather-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Weather Feature",
+    "tags": [],
+    "uri": "features/WebUI/Weather.feature"
+  }
+]
