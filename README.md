@@ -22,6 +22,7 @@ Retry & timeout handling for API calls
 
 Tag-based execution (@UI)
 
+```bash
 git clone https://github.com/trungnt9391/Jitsu.git
 cd Jitsu
 npm install
